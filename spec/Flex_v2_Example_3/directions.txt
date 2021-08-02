@@ -1,0 +1,10 @@
+route_id,direction_id,direction
+16787,0,Loop
+14113,0,Loop
+13528,0,Loop
+11132,0,Loop
+11129,0,Loop
+9768,1,Southbound
+9768,0,Northbound
+3643,1,Westbound
+3643,0,Eastbound

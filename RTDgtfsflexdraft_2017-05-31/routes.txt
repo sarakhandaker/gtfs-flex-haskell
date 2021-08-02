@@ -1,0 +1,43 @@
+route_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+APCR RS,APCR RS,Arapahoe Reservation Service,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+BWCR RS,BWCR RS,Belleview Reservation Service,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+BRCR RS,BRCR RS,Brighton Reservation Service,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+BMCR RS,BMCR RS,Broomfield Reservation Service,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+DRCR RS,DRCR RS,Dry Creek Reservation Service,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+EVCR RS,EVCR RS,Evergreen Reservation Service,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+FHCR RS,FHCR RS,Federal Heights Reservation Service,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+GDCR RS,GDCR RS,Golden Reservation Service,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+GMCR RS,GMCR RS,Green Mountain Reservation Service,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+HRCR RS,HRCR RS,Highlands Ranch Reservation Service,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+ILCR RS,ILCR RS,Interlocken/Westmoor Reservation Service,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+NICR RS,NICR RS,Inverness North Reservation Service,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+SICR RS,SICR RS,Inverness South Reservation Service,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+LNCR RS,LNCR RS,Lone Tree Reservation Service,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+LGCR RS,LGCR RS,Longmont Reservation Service,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+LSCR RS,LSCR RS,Louisville Reservation Service,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+MDCR RS,MDCR RS,Meridian Reservation Service,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+ORCR RS,ORCR RS,Orchard Reservation Service,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+PKCR RS,PKCR RS,Parker Reservation Service,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+SJCR RS,SJCR RS,South Jeffco Reservation Service,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+TNCR RS,TNCR RS,Thornton Reservation Service,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+APCR SD,APCR SD,Arapahoe Scheduled Departures,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+BWCR SD,BWCR SD,Belleview Scheduled Departures,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+BMCR SD,BMCR SD,Broomfield Scheduled Departures,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+DRCR SD,DRCR SD,Dry Creek Scheduled Departures,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+GDCR SD,GDCR SD,Golden Scheduled Departures,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+GMCR SD,GMCR SD,Green Mountain Scheduled Departures,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+ILCR SD,ILCR SD,Interlocken/Westmoor Scheduled Departures,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+NICR SD,NICR SD,Inverness North Scheduled Departures,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+SICR SD,SICR SD,Inverness South Scheduled Departures,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+LNCR SD,LNCR SD,Lone Tree  Scheduled Departures,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+LSCR SD,LSCR SD,Louisville  Scheduled Departures,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+MDCR SD,MDCR SD,Meridian Scheduled Departures,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+ORCR SD,ORCR SD,Orchard Scheduled Departures,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+SJCR SD,SJCR SD,South Jeffco Scheduled Departures,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+GDCR FR A,GDCR FR A,Golden Flex Route,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+GDCR FR B,GDCR FR B,Human Services Flex Route,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+GMCR FR A,GMCR FR A,Green Mountain Eastbound Flex Route,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+GMCR FR B,GMCR FR B,Green Mountain Westbound Flex Route,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+NICR FR,NICR FR,Inverness North Flex Route,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+SICR FR,SICR FR,Inverness South Flex Route,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF
+MDCR FR,MDCR FR,Meridian Flex Route,,3,http://www.rtd-denver.com/Schedules.shtml,0076CE,FFFFFF

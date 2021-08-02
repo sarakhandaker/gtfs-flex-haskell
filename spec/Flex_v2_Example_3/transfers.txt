@@ -1,0 +1,5 @@
+from_stop_id,to_stop_id,transfer_type,min_transfer_time
+2430903,2430903,1,
+820643,820643,1,
+820644,820644,0,
+9469,9469,1,

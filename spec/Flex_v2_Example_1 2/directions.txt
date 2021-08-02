@@ -1,0 +1,48 @@
+route_id,direction_id,direction
+16965,1,Down Valley
+16965,0,Up Valley
+6331,1,Inbound
+6331,0,Outbound
+5938,1,Inbound
+5938,0,Outbound
+5937,1,Inbound
+5937,0,Outbound
+5936,1,Inbound
+5936,1,Down Valley
+5936,0,Up Valley
+5936,0,Outbound
+5935,1,Inbound
+5935,1,Down Valley
+5935,0,Up Valley
+5935,0,Outbound
+5934,1,Inbound
+5934,1,Down Valley
+5934,0,Up Valley
+5934,0,Outbound
+5930,1,Inbound
+5930,1,Down Valley
+5930,0,Up Valley
+5930,0,Outbound
+5928,1,Down Valley
+5928,0,Up Valley
+5927,1,Inbound
+5927,0,Outbound
+5926,1,Inbound
+5926,0,Outbound
+5925,1,Inbound
+5925,0,Outbound
+5924,1,Inbound
+5924,0,Outbound
+5923,1,Inbound
+5923,0,Outbound
+5922,1,Inbound
+5922,0,Outbound
+5921,1,Inbound
+5921,0,Outbound
+5920,1,Down Valley
+5920,0,Up Valley
+5920,0,Outbound
+5919,1,Inbound
+5919,0,Outbound
+5918,1,Inbound
+5918,0,Outbound

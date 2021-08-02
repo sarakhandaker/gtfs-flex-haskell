@@ -1,0 +1,2 @@
+feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version
+RTD,http://rtd-denver.com,en,20170501,20171231,May17-14786-26-28-20170501-032522

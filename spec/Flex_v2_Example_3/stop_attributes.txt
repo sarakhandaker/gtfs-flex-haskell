@@ -1,0 +1,58 @@
+stop_id,stop_city
+9457,Hood River
+9460,Hood River
+9468,Springfield
+9469,Hood River
+820643,Portland
+820644,Latourell
+820645,Taylor
+2430902,Hood River
+2430903,The Dalles
+2430911,Odell
+2430912,Parkdale
+2454788,Hood River
+2454789,Cascade Locks
+2455471,Hood River
+2455472,Hood River
+2455478,Hood River
+2455479,Hood River
+2455480,Hood River
+2455481,Hood River
+2455482,Hood River
+2455483,Hood River
+2455542,Hood River
+2455543,Hood River
+2455544,Hood River
+2455703,Hood River
+2501900,Portland
+2501901,Wood Village
+2504940,Hood River
+2506080,Hood River
+2536251,The Dalles
+2536252,The Dalles
+2536254,The Dalles
+2536258,The Dalles
+2536261,Petersburg
+2536264,The Dalles
+2536265,The Dalles
+2536266,The Dalles
+2536267,Chenoweth
+2537573,Cascade Locks
+2537574,Cascade Locks
+2537605,Hood River
+2537680,Hood River
+2555692,The Dalles
+2555693,The Dalles
+2555694,The Dalles
+2561410,Hood River
+2562508,Cascade Locks
+2573616,The Dalles
+2573617,Troutdale
+2578027,Odell
+2578028,Mount Hood
+2578030,Odell
+2619408,The Dalles
+2619409,The Dalles
+2619410,The Dalles
+2619411,The Dalles
+2619472,The Dalles

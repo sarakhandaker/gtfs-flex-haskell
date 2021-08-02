@@ -1,0 +1,2 @@
+agency_id,agency_url,agency_lang,agency_name,agency_phone,agency_timezone,agency_fare_url
+37,https://www.ridecatbus.org,en,Columbia Area Transit,(541) 386-4202,America/Los_Angeles,https://www.ridecatbus.org/cost-to-go/

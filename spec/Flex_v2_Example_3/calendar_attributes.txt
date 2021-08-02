@@ -1,0 +1,5 @@
+service_id,service_description
+c_18127_b_26562_d_96,CAT Year Round (Weekend)
+c_18127_b_26562_d_31,CAT Year Round (Weekday)
+c_18127_b_26562_d_127,CAT Year Round (All days of week)
+c_17778_b_26831_d_31,Dalles Deviated Year Round (Weekday)

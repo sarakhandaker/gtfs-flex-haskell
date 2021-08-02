@@ -1,0 +1,2 @@
+rider_category_id,rider_category_description
+3,Child under 10 riding with an adult

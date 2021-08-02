@@ -1,0 +1,9 @@
+zone_id,zone_name
+73,The Dalles
+76,Mosier
+958,Portland
+960,Rooster Rock/Multnomah Falls
+1399,Odell
+1400,Parkdale
+1468,Cascade Locks
+1469,Hood River

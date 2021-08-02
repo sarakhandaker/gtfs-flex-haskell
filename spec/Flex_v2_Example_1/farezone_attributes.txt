@@ -1,0 +1,10 @@
+zone_id,zone_name
+1098,Rifle
+1099,Silt
+1100,New Castle
+1101,Glenwood Springs
+1102,Carbondale
+1103,El Jebel
+1104,Basalt
+1105,Aspen Village
+1106,Aspen/Snowmass

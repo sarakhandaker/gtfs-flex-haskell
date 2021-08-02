@@ -1,0 +1,6 @@
+agency_id,route_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color,route_sort_order,min_headway_minutes,eligibility_restricted,continuous_pickup,continuous_drop_off
+37,3643,,Columbia Gorge Express,,3,https://www.ridecatbus.org/columbia-gorge-express/,14aaed,000000,0,180,0,1,1
+37,11129,,Hood River,,3,https://www.ridecatbus.org/hood-river/,cc3530,ffffff,1,45,0,1,1
+37,9768,,Upper Valley,,3,https://www.ridecatbus.org/upper-valley/,52c1d5,ffffff,2,,0,1,1
+37,11132,,Pink Trolley,,3,https://www.ridecatbus.org/pink-trolley/,ed5887,000000,3,30,0,1,1
+37,14656,,Dial-a-Ride,,3,https://www.ridecatbus.org/how-to-ride/#dial-a-ride,ffffff,000000,7,,0,1,1

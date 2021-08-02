@@ -1,0 +1,59 @@
+stop_id,stop_code,platform_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_timezone,position,direction,wheelchair_boarding
+2430902,,,Greyhound Station - Hood River,,45.709642591139,-121.51165752357,,http://catransit.org/service-routes/,0,,America/Los_Angeles,,,0
+2430903,,,LINK Transit Center - The Dalles,,45.62558422259,-121.21792643981,73,http://catransit.org/service-routes/,0,,America/Los_Angeles,,,0
+2430911,,,Mid Valley Market - Odell,,45.626381015565,-121.54133016309,1399,http://catransit.org/service-routes/,0,,America/Los_Angeles,,,0
+2430912,,,McIssac's Market - Parkdale,,45.519742638496,-121.59694854105,1400,http://catransit.org/service-routes/,0,,America/Los_Angeles,,,0
+2454788,62,,Hood River (1st Street and Riverside Drive),,45.7124605032375,-121.511798340782,1469,,0,,America/Los_Angeles,,,0
+2454789,,,Cascade Locks (Columbia Market),,45.665550811115,-121.89526938558,1468,,0,,America/Los_Angeles,,,0
+2455471,,,Port Transfer (Sinclair Gas),,45.7124540411131,-121.511795089805,,,0,,America/Los_Angeles,,,0
+2455472,,,Waucoma Center,,45.711428,-121.520407,,,0,,America/Los_Angeles,,,0
+2455478,,,"Safeway, Hood River",,45.709051,-121.535401,,http://catransit.org/service-routes/,0,,America/Los_Angeles,,,0
+2455479,,,Cascade/Mt. Adams,,45.7104396480087,-121.546359433711,,http://catransit.org/service-routes/,0,,America/Los_Angeles,,,0
+2455480,,,Hood River Aquatic Center,,45.703938,-121.528576,,http://catransit.org/service-routes/,0,,America/Los_Angeles,,,0
+2455481,,,Pacific Avenue and 12th Street,,45.696722,-121.523796,,http://catransit.org/service-routes/,0,,America/Los_Angeles,,,0
+2455482,,,Hood River Public Library,,45.7080427777648,-121.514302732919,,http://catransit.org/service-routes/,0,,America/Los_Angeles,,,0
+2455483,,,8th Street and Portway Avenue,,45.7147739256793,-121.518897720924,,http://catransit.org/service-routes/,0,,America/Los_Angeles,,,0
+2455542,,,13th Street and Belmont Avenue,,45.69965,-121.524826,,http://catransit.org/service-routes/,0,,America/Los_Angeles,,,0
+2455543,,,Pacific Avenue and 12th Street,,45.6965325860375,-121.522565142742,,http://catransit.org/service-routes/,0,,America/Los_Angeles,,,0
+2455544,,,12th Street and June Street,,45.703054,-121.523569,,http://catransit.org/service-routes/,0,,America/Los_Angeles,,,0
+2455703,,,12th Street and Prospect (Hospital),,45.7048879574401,-121.523064316771,,,0,,America/Los_Angeles,,,0
+2501900,,,Lloyd District 13th/Holladay,,45.530267,-122.652617,,,0,,America/Los_Angeles,,,0
+2501901,,,Wood Village Park & Ride,,45.5352393280761,-122.429135409496,,,0,,America/Los_Angeles,,,0
+2504940,64,,5th Street and Columbia Street-Hood River,,45.7103738861754,-121.515227867097,,,0,,America/Los_Angeles,,,0
+2506080,,,4th Street and Columbia Street,,45.710365658935,-121.514452031028,,,0,,America/Los_Angeles,,,0
+2536251,,,Dalles Area Chamber of Commerce,,45.6037825267041,-121.187910286468,,,0,,America/Los_Angeles,,,0
+2536252,,,Fort Dalles Museum,,45.5964373137571,-121.197135618007,,,0,,America/Los_Angeles,,,0
+2536254,,,3rd & Union,,45.6016255707743,-121.184952109853,,,0,,America/Los_Angeles,,,0
+2536258,,,Dalles Dam Visitor Center,,45.6110976589353,-121.12472732189,,,0,,America/Los_Angeles,,,0
+2536261,,,The Dalles Dam,,45.6198735180613,-121.120027256886,,,0,,America/Los_Angeles,,,0
+2536264,,,Sunshine Mill,,45.5975643313849,-121.173245285435,,,0,,America/Los_Angeles,,,0
+2536265,,,2nd & Laughlin,,45.6003163877829,-121.179663230957,,,0,,America/Los_Angeles,,,0
+2536266,,,2nd & Court,,45.601842759592,-121.1828757702,,,0,,America/Los_Angeles,,,0
+2536267,,,Columbia Gorge Discovery Center,,45.6537079132769,-121.210538659403,,,0,,America/Los_Angeles,,,0
+2537573,44,,Cascade Locks EB,,45.666086230061,-121.895065266051,,https://columbiagorgeexpress.com/stops,0,,America/Los_Angeles,,,0
+2537574,44,,Cascade Locks WB,,45.6661704924822,-121.895299680016,,https://columbiagorgeexpress.com/stops,0,,America/Los_Angeles,,,0
+2537605,,,Children's Park 9th & Eugene,,45.7062234207243,-121.520084259825,,,0,,America/Los_Angeles,,,0
+2537680,,,Opportunity Connections,,45.7020045092796,-121.524619764792,,,0,,America/Los_Angeles,,,0
+2555692,,,Near Goodwill (Parking lot on Cherry Heights Rd),,45.6050843107385,-121.201177494442,,,0,,America/Los_Angeles,,,0
+2555693,,,Mid-Columbia Medical Center,,45.5876735701475,-121.164812670777,,,0,,America/Los_Angeles,,,0
+2555694,,,Columbia Gorge Community College (Building #3),,45.589928942946,-121.190245504035,,,0,,America/Los_Angeles,,,0
+2561410,,,Brookside Dr. & Sterling Pl. (Adult Center),,45.6933270460808,-121.526366241222,,,0,,America/Los_Angeles,,,0
+2562508,,,Cascade Locks - CALL AHEAD,,45.665515821699,-121.895294457403,,,0,,America/Los_Angeles,,,0
+2573616,,,Downtown The Dalles,,45.603616,-121.182987,,,0,,America/Los_Angeles,,,0
+2573617,,,Troutdale,,45.544562,-122.393347,,,0,,America/Los_Angeles,,,0
+2578027,,,Foxtail,,45.6382624840553,-121.514488517608,,,0,,America/Los_Angeles,,,0
+2578028,,,Parkdale Town Hall,,45.539079133081,-121.567775518646,,,0,,America/Los_Angeles,,,0
+2578029,,,Mount Hood Meadows,,45.3315998112334,-121.664764711054,,,0,,America/Los_Angeles,,,0
+2578030,,,Wyeast,,45.6307642973994,-121.546785880431,,,0,,America/Los_Angeles,,,0
+2619408,,,Seufert Park at Lone Pine,,45.608271,-121.127668,,,0,,America/Los_Angeles,,,0
+2619409,,,Water’s Edge 551 NE Lone Pine Blvd,,45.605829,-121.138729,,,0,,America/Los_Angeles,,,0
+2619410,,,4-Corners 12th St & Dry Hollow Rd,,45.592788,-121.166939,,,0,,America/Los_Angeles,,,0
+2619411,,,Kelly Stop 1113 Kelly Ave,,45.5941031290334,-121.181000641454,,,0,,America/Los_Angeles,,,0
+2619472,,,Port of The Dalles,,45.625299,-121.198341,,,0,,America/Los_Angeles,,,0
+820643,07,,Gateway Transit Center,Stop located at the corner of NE 99th Ave and NE Pacific St.,45.530386,-122.563461,958,,0,,America/Los_Angeles,,,0
+820644,25,,Rooster Rock State Park,Columbia Gorge Express bus riders can park anywhere.,45.545347310386,-122.245460344551,960,,0,,America/Los_Angeles,,,0
+820645,31,,Multnomah Falls,,45.578606313216,-122.11637172882,960,,0,,America/Los_Angeles,,,0
+9457,,,Rosauer's Super Market,,45.69504,-121.522425,1469,,0,,America/Los_Angeles,,,0
+9460,,,Wal-Mart,,45.711996,-121.539107,1469,,0,,America/Los_Angeles,,,0
+9468,,,201 Federal Street,,45.601279855232,-121.18021041155,73,,0,,America/Los_Angeles,,,0
+9469,,,CAT Transit Center - Hood River,,45.711532316603,-121.53528392315,1469,,0,,America/Los_Angeles,,,0

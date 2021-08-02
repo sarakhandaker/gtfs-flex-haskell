@@ -1,0 +1,6 @@
+fare_id,route_id,origin_id,destination_id,contains_id
+3620,11129,,,
+3620,11132,,,
+3620,9768,,,
+4205,3643,,,
+4277,14656,,,
