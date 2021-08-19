@@ -11,3 +11,11 @@ main = do
    hClose file
 --    hClose goodbyeFile
    putStrLn "done!"
+
+
+
+
+-- calculate the frequency of each route (trips/hour)
+-- group routes into three buckets (frequent, moderate and not frequent) (<15 min, 15-1 hour, > 1 hour)
+
+-- do the same for distance after
