@@ -65,7 +65,7 @@ WITH
   (
     FIELDTERMINATOR = ',', 
     ROWTERMINATOR = '\n' 
-  )
+  );
 
 BULK INSERT trips
 FROM './spec/Flex_v2_Example_3/trips.txt'
@@ -73,7 +73,7 @@ WITH
   (
     FIELDTERMINATOR = ',', 
     ROWTERMINATOR = '\n' 
-  )
+  );
 
 BULK INSERT stop_times
 FROM './spec/Flex_v2_Example_3/stop_times.txt'
@@ -81,17 +81,7 @@ WITH
   (
     FIELDTERMINATOR = ',', 
     ROWTERMINATOR = '\n' 
-  )
-GO
--- INSERT INTO users (username) VALUES ('willkurt');
-
--- INSERT INTO tools (name,description,lastReturned,timesBorrowed)
--- VALUES ('hammer','hits stuff','2017-01-01',0);
-
--- INSERT INTO tools (name,description,lastReturned,timesBorrowed)
--- VALUES ('saw','cuts stuff','2017-01-01',0);
-
--- INSERT INTO users (username) VALUES ('willkurt');
+  );
 
 -- INSERT INTO tools (name,description,lastReturned,timesBorrowed)
 -- VALUES ('hammer','hits stuff','2017-01-01',0);
