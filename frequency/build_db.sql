@@ -59,6 +59,30 @@ CREATE TABLE stop_times (
        safe_duration_offset TEXT
        );
 
+BULK INSERT routes
+FROM './spec/Flex_v2_Example_3/routes.txt'
+WITH 
+  (
+    FIELDTERMINATOR = ',', 
+    ROWTERMINATOR = '\n' 
+  )
+
+BULK INSERT trips
+FROM './spec/Flex_v2_Example_3/trips.txt'
+WITH 
+  (
+    FIELDTERMINATOR = ',', 
+    ROWTERMINATOR = '\n' 
+  )
+
+BULK INSERT stop_times
+FROM './spec/Flex_v2_Example_3/stop_times.txt'
+WITH 
+  (
+    FIELDTERMINATOR = ',', 
+    ROWTERMINATOR = '\n' 
+  )
+GO
 -- INSERT INTO users (username) VALUES ('willkurt');
 
 -- INSERT INTO tools (name,description,lastReturned,timesBorrowed)
