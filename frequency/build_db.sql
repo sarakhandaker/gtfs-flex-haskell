@@ -3,9 +3,8 @@ DROP TABLE IF EXISTS trips;
 DROP TABLE IF EXISTS stop_times;
 
 CREATE TABLE routes (
-       id INTEGER PRIMARY KEY,
        agency_id INTEGER,
-       route_id INTEGER,
+       route_id INTEGER PRIMARY KEY,
        route_short_name TEXT,
        route_long_name TEXT,
        route_desc TEXT,
@@ -19,12 +18,14 @@ CREATE TABLE routes (
        continuous_pickup TEXT,
        continuous_drop_off TEXT
        );
+.separator ','
+.headers on
+.import  ../spec/Flex_v2_Example_3/routes.txt  routes
 
 CREATE TABLE trips (
-       id INTEGER PRIMARY KEY,
        route_id INTEGER,
-       service_id INTEGER,
-       trip_id INTEGER,
+       service_id TEXT,
+       trip_id TEXT PRIMARY KEY,
        trip_short_name TEXT,
        trip_headsign TEXT,
        direction_id INTEGER,
@@ -34,10 +35,12 @@ CREATE TABLE trips (
        wheelchair_accessible TEXT,
        trip_type TEXT
        );
+.separator ','
+.headers on
+.import ../spec/Flex_v2_Example_3/trips.txt  trips
 
 CREATE TABLE stop_times (
-       id INTEGER PRIMARY KEY,
-       trip_id INTEGER,
+       trip_id TEXT,
        arrival_time TEXT,
        departure_time TEXT,
        stop_id INTEGER,
@@ -49,8 +52,8 @@ CREATE TABLE stop_times (
        timepoint TEXT,
        continuous_pickup TEXT,
        continuous_drop_off TEXT,
-       pickup_booking_rule_id INTEGER,
-       drop_off_booking_rule_id INTEGER,
+       pickup_booking_rule_id TEXT,
+       drop_off_booking_rule_id TEXT,
        start_pickup_dropoff_window TEXT,
        end_pickup_dropoff_window TEXT,
        mean_duration_factor TEXT,
@@ -58,30 +61,17 @@ CREATE TABLE stop_times (
        safe_duration_factor TEXT,
        safe_duration_offset TEXT
        );
+.separator ','
+.import  ../spec/Flex_v2_Example_3/stop_times.txt  stop_times
 
-BULK INSERT routes
-FROM './spec/Flex_v2_Example_3/routes.txt'
-WITH 
-  (
-    FIELDTERMINATOR = ',', 
-    ROWTERMINATOR = '\n' 
-  );
-
-BULK INSERT trips
-FROM './spec/Flex_v2_Example_3/trips.txt'
-WITH 
-  (
-    FIELDTERMINATOR = ',', 
-    ROWTERMINATOR = '\n' 
-  );
-
-BULK INSERT stop_times
-FROM './spec/Flex_v2_Example_3/stop_times.txt'
-WITH 
-  (
-    FIELDTERMINATOR = ',', 
-    ROWTERMINATOR = '\n' 
-  );
+-- BULK INSERT routes
+-- FROM '../spec/Flex_v2_Example_3/routes.txt'
+-- WITH 
+--   (
+--     FIRSTROW = 2,
+--     FIELDTERMINATOR = ',',
+--     ROWTERMINATOR = '\n',
+--   );
 
 -- INSERT INTO tools (name,description,lastReturned,timesBorrowed)
 -- VALUES ('hammer','hits stuff','2017-01-01',0);
