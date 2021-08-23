@@ -13,7 +13,7 @@ CREATE TABLE routes (
        route_color TEXT,
        route_text_color TEXT,
        route_sort_order TEXT,
-       min_headway_minutes INTEGER,
+       min_headway_minutes TEXT,
        eligibility_restricted TEXT,
        continuous_pickup TEXT,
        continuous_drop_off TEXT
