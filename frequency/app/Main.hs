@@ -75,15 +75,50 @@ instance FromRow Route where
                   <*> field
                   <*> field
                   <*> field
-                   <*> field
-                    <*> field
-                     <*> field
-                      <*> field
-                       <*> field
-                        <*> field
-                         <*> field
-                          <*> field
-                           <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+
+instance FromRow Trip where
+   fromRow = Route <$> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+
+instance FromRow StopTime where
+   fromRow = Route <$> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
+                  <*> field
 
 main :: IO ()
 main = withConn "trips.db" $
