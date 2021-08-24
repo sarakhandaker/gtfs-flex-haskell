@@ -1,6 +1,5 @@
 {-# OPTIONS_GHC -Wno-deferred-type-errors #-}
 module Main where
-
 -- import Lib
 import Control.Applicative
 import Database.SQLite.Simple
@@ -29,6 +28,45 @@ data Route = Route
        eligibilityRestricted  :: String,
        continuousPickup  :: String,
        continuousDropOff  :: String
+ } deriving Show
+
+data Trip = Trip
+ { 
+       routeId' :: Int,
+       serviceId :: String,
+       tripId :: String,
+       tripShortName :: String,
+       tripHeadsign :: String,
+       directionId :: Int,
+       blockId :: Int,
+       shapeId :: Int,
+       bikesAllowed :: String,
+       wheelchairAccessible :: String,
+       tripType :: String
+ } deriving Show
+
+data StopTime = StopTime
+ { 
+       tripId' :: String,
+       arrivalTime :: String,
+       departureTime :: String,
+       stopId :: Int,
+       stopSequence :: String,
+       stopHeadsign :: String,
+       pickupType :: String,
+       dropOffType :: String,
+       shapeDistTraveled :: String,
+       timepoint :: String,
+       continuousPickup' :: String,
+       continuousDropOff' :: String,
+       pickupBookingRuleId :: String,
+       dropOffBookingRuleId :: String,
+       startPickupDropoffWindow :: String,
+       endPickupDropoffWindow :: String,
+       meanDurationFactor :: String,
+       meanDurationOffset :: String,
+       safeDurationFactor :: String,
+       safeDurationOffset :: String
  } deriving Show
 
 instance FromRow Route where
