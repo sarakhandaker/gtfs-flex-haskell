@@ -86,7 +86,7 @@ instance FromRow Route where
                   <*> field
 
 instance FromRow Trip where
-   fromRow = Route <$> field
+   fromRow = Trip <$> field
                   <*> field
                   <*> field
                   <*> field
@@ -99,7 +99,7 @@ instance FromRow Trip where
                   <*> field
 
 instance FromRow StopTime where
-   fromRow = Route <$> field
+   fromRow = StopTime <$> field
                   <*> field
                   <*> field
                   <*> field
@@ -123,5 +123,5 @@ instance FromRow StopTime where
 main :: IO ()
 main = withConn "trips.db" $
              \conn ->  do
-               resp <- query_ conn "SELECT * FROM routes;" :: IO [Route]
+               resp <- query_ conn "SELECT * FROM stop_times;" :: IO [Route]
                mapM_ print resp

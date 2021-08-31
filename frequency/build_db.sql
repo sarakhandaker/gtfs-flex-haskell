@@ -37,7 +37,7 @@ CREATE TABLE trips (
        );
 .separator ','
 .headers on
-.import ../spec/Flex_v2_Example_3/trips.txt  trips
+.import "|tail -n +2 ../spec/Flex_v2_Example_3/trips.txt" trips
 
 CREATE TABLE stop_times (
        trip_id TEXT,
@@ -62,7 +62,8 @@ CREATE TABLE stop_times (
        safe_duration_offset TEXT
        );
 .separator ','
-.import  ../spec/Flex_v2_Example_3/stop_times.txt  stop_times
+-- .import  ../spec/Flex_v2_Example_3/stop_times.txt  stop_times
+.import "|tail -n +2 ../spec/Flex_v2_Example_3/stop_times.txt" stop_times
 
 -- BULK INSERT routes
 -- FROM '../spec/Flex_v2_Example_3/routes.txt'
