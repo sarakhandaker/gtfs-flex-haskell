@@ -39,7 +39,7 @@ data Trip = Trip
        tripHeadsign :: Maybe String,
        directionId :: Maybe Int,
        blockId :: Maybe Int,
-       shapeId :: Maybe Int,
+       shapeId :: Maybe String,
        bikesAllowed :: Maybe String,
        wheelchairAccessible :: Maybe String,
        tripType :: Maybe String

@@ -27,10 +27,10 @@ CREATE TABLE trips (
        service_id TEXT,
        trip_id TEXT PRIMARY KEY,
        trip_short_name TEXT,
-       trip_headsign TEXT,
+       trip_headsign String,
        direction_id INTEGER,
        block_id INTEGER,
-       shape_id INTEGER,
+       shape_id String,
        bikes_allowed TEXT,
        wheelchair_accessible TEXT,
        trip_type TEXT
