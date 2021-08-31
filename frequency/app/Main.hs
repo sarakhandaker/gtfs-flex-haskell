@@ -32,17 +32,17 @@ data Route = Route
 
 data Trip = Trip
  { 
-       routeId' :: Int,
+       routeId' :: Maybe Int,
        serviceId :: String,
        tripId :: String,
-       tripShortName :: String,
-       tripHeadsign :: String,
-       directionId :: Int,
-       blockId :: Int,
-       shapeId :: Int,
-       bikesAllowed :: String,
-       wheelchairAccessible :: String,
-       tripType :: String
+       tripShortName :: Maybe String,
+       tripHeadsign :: Maybe String,
+       directionId :: Maybe Int,
+       blockId :: Maybe Int,
+       shapeId :: Maybe Int,
+       bikesAllowed :: Maybe String,
+       wheelchairAccessible :: Maybe String,
+       tripType :: Maybe String
  } deriving Show
 
 data StopTime = StopTime
@@ -50,23 +50,23 @@ data StopTime = StopTime
        tripId' :: String,
        arrivalTime :: String,
        departureTime :: String,
-       stopId :: Int,
-       stopSequence :: String,
-       stopHeadsign :: String,
-       pickupType :: String,
-       dropOffType :: String,
-       shapeDistTraveled :: String,
-       timepoint :: String,
-       continuousPickup' :: String,
-       continuousDropOff' :: String,
-       pickupBookingRuleId :: String,
-       dropOffBookingRuleId :: String,
-       startPickupDropoffWindow :: String,
-       endPickupDropoffWindow :: String,
-       meanDurationFactor :: String,
-       meanDurationOffset :: String,
-       safeDurationFactor :: String,
-       safeDurationOffset :: String
+       stopId :: Maybe Int,
+       stopSequence :: Maybe String,
+       stopHeadsign :: Maybe String,
+       pickupType :: Maybe String,
+       dropOffType :: Maybe String,
+       shapeDistTraveled :: Maybe String,
+       timepoint :: Maybe String,
+       continuousPickup' :: Maybe String,
+       continuousDropOff' :: Maybe String,
+       pickupBookingRuleId :: Maybe String,
+       dropOffBookingRuleId :: Maybe String,
+       startPickupDropoffWindow :: Maybe String,
+       endPickupDropoffWindow :: Maybe String,
+       meanDurationFactor :: Maybe String,
+       meanDurationOffset :: Maybe String,
+       safeDurationFactor :: Maybe String,
+       safeDurationOffset :: Maybe String
  } deriving Show
 
 instance FromRow Route where
@@ -123,5 +123,5 @@ instance FromRow StopTime where
 main :: IO ()
 main = withConn "trips.db" $
              \conn ->  do
-               resp <- query_ conn "SELECT * FROM stop_times;" :: IO [Route]
+               resp <- query_ conn "SELECT * FROM trips;" :: IO [Trip]
                mapM_ print resp
